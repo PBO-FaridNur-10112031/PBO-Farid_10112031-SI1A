@@ -36,7 +36,7 @@ class BangunRuang {
     }
 }
 
-// daftar data sesuai contoh di gambar
+
 $data = [
     ['jenis' => 'Bola',             'sisi' => 0,  'jari' => 7,  'tinggi' => 0],
     ['jenis' => 'Kerucut',          'sisi' => 0,  'jari' => 14, 'tinggi' => 10],
@@ -45,7 +45,7 @@ $data = [
     ['jenis' => 'Tabung',           'sisi' => 0,  'jari' => 7,  'tinggi' => 10],
 ];
 
-// tabel HTML
+
 echo "<table border=1 cellpadding=6 cellspacing=0>";
 echo "<tr style='background:blue;color:white;'>";
 echo "<th>Jenis Bangun Ruang</th><th>Sisi</th><th>Jari-jari</th><th>Tinggi</th><th>Volume</th>";
